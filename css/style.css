@@ -244,6 +244,57 @@ textarea.form-control {}
     font-weight: 400;
     text-align: center;
 }
+.header {
+    background-color: #313639;
+}
+.header__line {
+    padding: 16px 15px;
+}
+.header__logo {
+    width: 154px;
+    height: 27px;
+}
+.header__logo img {
+    width: 100%;
+    height: auto;
+}
+.header__btn {
+    color: #545454;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.header__menu {
+    display: none;
+}
+.header__menuitem {
+    display: block;
+    background-color: #313639;
+    padding: 19px 30px 18px;
+}
+.header__menuitem:hover {
+    background-color: #2b2f31;
+    text-decoration: none;
+}
+.header__menuitem-text {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+.header__menuitem-notice {}
+.notice {
+    display: inline-block;
+    background-color: #ff5c70;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.notice + .notice {
+    margin-left: 13px;
+}
+.body {
+    padding: 30px 15px;
+    background-color: #fff;
+}
 .footer {
     width: 100%;
     height: 182px;
