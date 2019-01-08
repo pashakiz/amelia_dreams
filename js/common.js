@@ -14,5 +14,9 @@ $(document).ready(function() {
             btn.addClass('icon-menu-down');
         }
     });
+    $('.custom-file-input').on('change', function(){
+        //$('.custom-file-img').css('background-image', 'url(' + $(this).val() + ')');
+        $('.custom-file-img').show();
+    });
 
 });

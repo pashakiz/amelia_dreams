@@ -251,6 +251,43 @@ textarea.form-control {
     -webkit-transform: translateX(1.375rem);
     transform: translateX(1.375rem);
 }
+.custom-file {
+    height: 82px;
+}
+.custom-file-input {
+    z-index: 0;
+}
+.custom-file-area {
+    width: 100%;
+    height: 82px;
+    border-radius: 5px;
+    border: 2px dashed #efefef;
+    padding: 8px 100px;
+    color: #898989;
+    font-size: 37px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.custom-file-area:active {
+    color: #b2b2b2;
+    background-color: #f0f1f3;
+}
+.custom-file-img {
+    display: none;
+    width: 290px;
+    height: 323px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 0 auto;
+}
 .wrapper {
     width: 320px;
     margin: 0 auto;
