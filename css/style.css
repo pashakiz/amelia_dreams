@@ -48,35 +48,6 @@ body {
     position: absolute;
     top: 0;
 }
-/*-----------TEST-FONT-----------*/
-.light, .reg, .med, .demi, .bold { display: block; width: 100%; }
-.light { font-weight: 300; }
-.reg { font-weight: 400; }
-.med { font-weight: 500; }
-.demi { font-weight: 600; }
-.bold { font-weight: 700; }
-.icons-test { font-size: 20px; }
-.testbox {
-    display: block;
-    background-color: antiquewhite;
-    height: 50px;
-}
-.testbox.w100 {
-    width: 100px;
-}
-.testbox.w300 {
-    width: 300px;
-}
-.testbox.w320 {
-    width: 320px;
-}
-.testbox.w360 {
-    width: 360px;
-}
-.testbox.w370 {
-    width: 370px;
-}
-/*-----------TEST-FONT-----------*/
 h1 {
     color: #313639;
     font-size: 14px;
@@ -110,6 +81,9 @@ a:hover {
 .greylink:hover {
     color: #353535;
     text-decoration: underline;
+}
+.smallink {
+    font-size: 11px;
 }
 .btn {
     display: block;
