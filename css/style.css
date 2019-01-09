@@ -435,6 +435,18 @@ textarea.form-control {
     top: -11px;
     right: -2px;
 }
+.user_pair-big:before {
+    content: '';
+    width: 42px;
+    height: 36px;
+    background-image: url('../img/pair.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -11px;
+    right: -6px;
+    z-index: 10;
+}
 .user__img-area {
     width: 50%;
     height: 133px;
@@ -462,7 +474,6 @@ textarea.form-control {
 }
 .user__text {
     min-height: 38px;
-    border-bottom: 1px solid #efefef;
 }
 .user__name {
     font-size: 10px;
@@ -480,6 +491,7 @@ textarea.form-control {
 }
 .compability {
     padding-top: 12px;
+    border-top: 1px solid #efefef;
 }
 .compability__title {
     color: #313639;
@@ -493,6 +505,80 @@ textarea.form-control {
 }
 .compability__charts {
     margin-top: 8px;
+}
+.user_profile {
+    padding: 18px 15px 15px;
+}
+.user_profile .user__name,
+.user_profile .user__age {
+    font-size: 12px;
+}
+.user_profile .user__location {
+    font-size: 10px;
+}
+.user__carousel {}
+.user__carousel .item {}
+.user__carousel .owl-carousel .owl-stage-outer {
+    border-radius: 5px;
+}
+.user__carousel .owl-carousel .owl-nav {}
+.user__carousel .owl-carousel .owl-nav .owl-prev span,
+.user__carousel .owl-carousel .owl-nav .owl-next span {
+    display: none;
+}
+.user__carousel .owl-carousel .owl-nav .owl-prev,
+.user__carousel .owl-carousel .owl-nav .owl-next {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    margin-top: -11px;
+    color: rgba(255,255,255,0.4);
+    font-size: 22px;
+    outline: none;
+}
+.user__carousel .owl-carousel .owl-nav .owl-prev {
+    left: 7px;
+}
+.user__carousel .owl-carousel .owl-nav .owl-prev:before {
+    content: "\e900";
+}
+.user__carousel .owl-carousel .owl-nav .owl-next {
+    right: 7px;
+}
+.user__carousel .owl-carousel .owl-nav .owl-next:before {
+    content: "\e901";
+}
+.user.user_info {
+    margin-bottom: 40px;
+}
+.user.user_info .compability__title {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.user.user_info .compability__title span {
+    font-size: 12px;
+}
+.user__info-row {
+    padding: 25px 15px 20px;
+    position: relative;
+}
+.user__info-row + .user__info-row {
+    border-top: 1px solid #efefef;
+}
+.user__info-text {
+    font-size: 11px;
+    font-weight: 400;
+    color: #313639;
+    padding-bottom: 26px;
+    text-align: center;
+}
+.user__info-row-btn {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    right: 0;
 }
 .footer {
     width: 100%;
