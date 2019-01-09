@@ -504,7 +504,23 @@ textarea.form-control {
     font-weight: 700;
 }
 .compability__charts {
-    margin-top: 8px;
+    margin-top: 3px;
+    text-align: center;
+}
+.compability__charts.fix {
+    margin-left: -13px;
+}
+.compability__chart.middle {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.compability__chart-title {
+    margin-top: 5px;
+    font-size: 8px;
+}
+.compability__chart-canvas {
+    width: 50px;
+    height: 25px;
 }
 .user_profile {
     padding: 18px 15px 15px;
@@ -559,6 +575,18 @@ textarea.form-control {
 }
 .user.user_info .compability__title span {
     font-size: 12px;
+}
+.user.user_info .compability__chart-canvas {
+    width: 70px;
+    height: 36px;
+}
+.user.user_info .compability__chart-title {
+    margin-top: 5px;
+    font-size: 11px;
+}
+.compability__chart.borders {
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
 }
 .user__info-row {
     padding: 25px 15px 20px;
