@@ -31,7 +31,7 @@ body {
     background-color: #fff;
 }
 .body_bg {
-    background-color: #F0F1F3;
+    background-color: #f0f1f3 !important;
 }
 .body_bgm {
     background-color: #323639;
@@ -124,6 +124,10 @@ a:hover {
 }
 .btn-gray:hover {
     background-color: #9d9d9d;
+}
+.btn_mini {
+    font-size: 7px;
+    padding: .55rem 1rem;
 }
 .form-group_2 {
     margin-bottom: 2rem;
@@ -409,6 +413,86 @@ textarea.form-control {
 .body {
     padding: 30px 15px;
     background-color: #fff;
+}
+.user {
+    width: 290px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.user + .user {
+    margin-top: 16px;
+}
+.user_pair:before {
+    content: '';
+    width: 30px;
+    height: 28px;
+    background-image: url('../img/pair.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -11px;
+    right: -2px;
+}
+.user__img-area {
+    width: 50%;
+    height: 133px;
+    padding: 10px 10px 10px 15px;
+}
+.user__img {
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+}
+.user__btn {
+    width: 100%;
+    position: absolute;
+    bottom: -13px;
+    z-index: 20;
+}
+.user__inf {
+    width: 50%;
+    padding: 15px 20px 10px 6px;
+}
+.user__text {
+    min-height: 38px;
+    border-bottom: 1px solid #efefef;
+}
+.user__name {
+    font-size: 10px;
+    font-weight: 700;
+    color: #313639;
+}
+.user__age {
+    font-size: 9px;
+    font-weight: 500;
+}
+.user__location {
+    font-size: 9px;
+    margin-top: 6px;
+    line-height: 1.2;
+}
+.compability {
+    padding-top: 12px;
+}
+.compability__title {
+    color: #313639;
+    font-size: 7px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.compability__title span {
+    color: #ff5c70;
+    font-weight: 700;
+}
+.compability__charts {
+    margin-top: 8px;
 }
 .footer {
     width: 100%;
